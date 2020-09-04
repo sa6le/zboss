@@ -1,0 +1,33 @@
+token: --nNode=2
+token: --pipeName=/tmp/zt
+start simulate
+have smth from node 0
+Read from pipe: rpipe 3 ret 11
+dump of buf [11] buf parse
+0b 03 08 59 ff ff ff ff 07 2a 4c 
+mf.frame_control.dest_addr_mode 2  all 2051
+frame 3 0 0 0 0 0 2 0 0
+addr 65535 65535 10759 19020
+nNode 65535
+write pipe /tmp/zt1.write open failed No such device or address
+Write to pipe: pipe 1 ret -1
+have smth from node 1
+Read from pipe: rpipe 4 ret 11
+dump of buf [11] buf parse
+0b 03 08 59 ff ff ff ff 07 2a 4c 
+mf.frame_control.dest_addr_mode 2  all 2051
+frame 3 0 0 0 0 0 2 0 0
+addr 65535 65535 10759 19020
+nNode 65535
+Write to pipe: pipe 0 ret 11
+have smth from node 0
+Read from pipe: rpipe 3 ret 29
+dump of buf [29] buf parse
+1d 00 80 59 aa 1a 00 00 ff cf 00 00 00 21 84 00 
+aa aa aa aa aa aa aa ff ff ff 00 47 1d 
+mf.frame_control.dest_addr_mode 0  all 32768
+frame 0 0 0 0 0 0 0 0 2
+addr 6826 0 53247 0
+nNode 65535
+write pipe /tmp/zt1.write open failed No such device or address
+Write to pipe: pipe 1 ret -1

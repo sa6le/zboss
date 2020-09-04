@@ -1,0 +1,1130 @@
+zb_trace_unix.o: zb_trace_unix.c ../../include/zb_common.h \
+ ../../include/zb_config.h ../../include/zb_types.h \
+ ../../include/zb_errors.h ../../include/zb_debug.h \
+ ../../include/zb_g_context.h ../../osif/include/zb_osif.h \
+ ../../osif/include/zb_osif_unix.h ../../include/zb_scheduler.h \
+ ../../include/zb_list_macros.h ../../include/zb_time.h \
+ ../../include/zb_ringbuffer.h ../../include/zb_bufpool_globals.h \
+ ../../include/zb_bufpool.h ../../include/zb_addr_globals.h \
+ ../../include/zb_pooled_list.h ../../include/zb_address.h \
+ ../../include/zb_mac_globals.h ../../include/zb_mac.h \
+ ../../include/zb_ns3.h ../../include/zb_radio.h \
+ ../../include/zb_nwk_globals.h ../../include/zb_nwk_neighbor.h \
+ ../../include/zb_nwk.h ../../include/zb_nwk_nib.h \
+ ../../include/zb_aps_globals.h ../../include/zb_af_globals.h \
+ ../../include/zb_test_profile.h ../../include/zb_zdo_globals.h \
+ ../../include/zb_zcl_globals.h ../../include/zb_zcl.h \
+ ../../include/zb_transport_globals.h \
+ ../../include/zb_transport_linux_pipes.h ../../include/zb_trace.h
+zb_mac_transport_linux_pipes.o: zb_mac_transport_linux_pipes.c \
+ ../../include/zb_common.h ../../include/zb_config.h \
+ ../../include/zb_types.h ../../include/zb_errors.h \
+ ../../include/zb_debug.h ../../include/zb_g_context.h \
+ ../../osif/include/zb_osif.h ../../osif/include/zb_osif_unix.h \
+ ../../include/zb_scheduler.h ../../include/zb_list_macros.h \
+ ../../include/zb_time.h ../../include/zb_ringbuffer.h \
+ ../../include/zb_bufpool_globals.h ../../include/zb_bufpool.h \
+ ../../include/zb_addr_globals.h ../../include/zb_pooled_list.h \
+ ../../include/zb_address.h ../../include/zb_mac_globals.h \
+ ../../include/zb_mac.h ../../include/zb_ns3.h ../../include/zb_radio.h \
+ ../../include/zb_nwk_globals.h ../../include/zb_nwk_neighbor.h \
+ ../../include/zb_nwk.h ../../include/zb_nwk_nib.h \
+ ../../include/zb_aps_globals.h ../../include/zb_af_globals.h \
+ ../../include/zb_test_profile.h ../../include/zb_zdo_globals.h \
+ ../../include/zb_zcl_globals.h ../../include/zb_zcl.h \
+ ../../include/zb_transport_globals.h \
+ ../../include/zb_transport_linux_pipes.h ../../include/zb_trace.h \
+ ../../include/zb_bufpool.h ../../include/zb_ringbuffer.h \
+ ../../include/zb_mac_transport.h ../../include/zb_nwk.h
+zb_mac_transport_linux_spidev.o: zb_mac_transport_linux_spidev.c \
+ ../../include/zb_common.h ../../include/zb_config.h \
+ ../../include/zb_types.h ../../include/zb_errors.h \
+ ../../include/zb_debug.h ../../include/zb_g_context.h \
+ ../../osif/include/zb_osif.h ../../osif/include/zb_osif_unix.h \
+ ../../include/zb_scheduler.h ../../include/zb_list_macros.h \
+ ../../include/zb_time.h ../../include/zb_ringbuffer.h \
+ ../../include/zb_bufpool_globals.h ../../include/zb_bufpool.h \
+ ../../include/zb_addr_globals.h ../../include/zb_pooled_list.h \
+ ../../include/zb_address.h ../../include/zb_mac_globals.h \
+ ../../include/zb_mac.h ../../include/zb_ns3.h ../../include/zb_radio.h \
+ ../../include/zb_nwk_globals.h ../../include/zb_nwk_neighbor.h \
+ ../../include/zb_nwk.h ../../include/zb_nwk_nib.h \
+ ../../include/zb_aps_globals.h ../../include/zb_af_globals.h \
+ ../../include/zb_test_profile.h ../../include/zb_zdo_globals.h \
+ ../../include/zb_zcl_globals.h ../../include/zb_zcl.h \
+ ../../include/zb_transport_globals.h \
+ ../../include/zb_transport_linux_pipes.h ../../include/zb_trace.h
+zb_debug.o: zb_debug.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../osif/include/zb_bank_common.h
+zb_scheduler.o: zb_scheduler.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_list_macros.h \
+ ../osif/include/zb_bank_common.h
+zb_bufpool.o: zb_bufpool.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_bufpool.h \
+ ../osif/include/zb_bank_common.h
+zb_address.o: zb_address.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_hash.h ../include/zb_address.h \
+ ../osif/include/zb_bank_a.h
+zb_init.o: zb_init.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_bufpool.h ../include/zb_ringbuffer.h \
+ ../include/zb_scheduler.h ../include/zb_mac_transport.h \
+ ../include/zb_aps.h ../osif/include/zb_bank_6.h
+zb_bufpool_init.o: zb_bufpool_init.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_bufpool.h \
+ ../osif/include/zb_bank_6.h
+zb_scheduler_init.o: zb_scheduler_init.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../osif/include/zb_bank_6.h
+zb_time.o: zb_time.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_time.h \
+ ../osif/include/zb_bank_common.h
+zb_ib.o: zb_ib.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_nwk.h ../include/zb_aps.h ../include/zb_secur.h \
+ ../osif/include/zb_bank_6.h
+zb_random.o: zb_random.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../osif/include/zb_bank_common.h
+mac.o: mac.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../include/zb_mac_transport.h ../include/zb_ubec24xx.h \
+ ../include/zb_mac_globals.h ../osif/include/zb_bank_1.h
+mac_cr_coordinator.o: mac_cr_coordinator.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h mac_internal.h \
+ ../include/zb_ringbuffer.h ../osif/include/zb_bank_2.h
+mac_fcs.o: mac_fcs.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_mac.h ../osif/include/zb_bank_2.h
+zb_uz2400.o: zb_uz2400.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../include/zb_mac_transport.h ../include/zb_ubec24xx.h \
+ ../include/zb_types.h ../include/zb_config.h ../include/zb_secur.h
+mac_scan.o: mac_scan.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../osif/include/zb_bank_2.h
+mac_cr_associate.o: mac_cr_associate.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../osif/include/zb_bank_2.h
+mac_associate.o: mac_associate.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../osif/include/zb_bank_2.h
+zb_ns3.o: zb_ns3.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../include/zb_mac_transport.h ../include/zb_ubec24xx.h \
+ ../osif/include/zb_bank_2.h
+mac_data.o: mac_data.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../include/zb_mac_transport.h ../include/zb_secur.h ../include/zb_zdo.h \
+ ../osif/include/zb_bank_1.h
+mac_cr_data.o: mac_cr_data.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../include/zb_mac_transport.h ../include/zb_secur.h ../include/zb_zdo.h \
+ ../osif/include/zb_bank_2.h
+mac_common.o: mac_common.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../include/zb_mac_transport.h ../include/zb_ubec24xx.h \
+ ../include/zb_mac_globals.h ../osif/include/zb_bank_2.h \
+ ../include/zb_zdo.h
+mac_routines.o: mac_routines.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h mac_internal.h \
+ ../include/zb_ringbuffer.h ../osif/include/zb_bank_2.h
+zb_uz2x_common.o: zb_uz2x_common.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_mac.h mac_internal.h ../include/zb_ringbuffer.h \
+ ../include/zb_mac_transport.h ../include/zb_ubec24xx.h \
+ ../include/zb_types.h ../include/zb_config.h ../include/zb_secur.h
+zb_mrf24j40.o: zb_mrf24j40.c
+nwk_main.o: nwk_main.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../include/zb_secur.h ../osif/include/zb_bank_3.h
+nwk_nlme.o: nwk_nlme.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../include/zb_secur.h ../osif/include/zb_bank_6.h
+nwk_discovery.o: nwk_discovery.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../osif/include/zb_bank_5.h
+nwk_formation.o: nwk_formation.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../include/zb_magic_macros.h ../osif/include/zb_bank_3.h
+nwk_cr_formation.o: nwk_cr_formation.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../include/zb_magic_macros.h ../osif/include/zb_bank_5.h
+nwk_cr_permit_join.o: nwk_cr_permit_join.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../osif/include/zb_bank_4.h
+nwk_cr_join.o: nwk_cr_join.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_secur.h ../include/zb_aps.h \
+ nwk_internal.h ../include/zb_magic_macros.h ../osif/include/zb_bank_6.h
+nwk_join.o: nwk_join.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_secur.h ../include/zb_aps.h \
+ nwk_internal.h ../include/zb_magic_macros.h ../osif/include/zb_bank_4.h
+nwk_neighbor.o: nwk_neighbor.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_nwk.h ../include/zb_magic_macros.h \
+ ../osif/include/zb_bank_4.h
+nwk_cr_route_discovery.o: nwk_cr_route_discovery.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../include/zb_magic_macros.h ../osif/include/zb_bank_5.h
+nwk_address_assign.o: nwk_address_assign.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../osif/include/zb_bank_3.h
+nwk_cr_tree_routing.o: nwk_cr_tree_routing.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../osif/include/zb_bank_4.h
+nwk_cr_mesh_routing.o: nwk_cr_mesh_routing.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../osif/include/zb_bank_5.h
+nwk_panid_conflict.o: nwk_panid_conflict.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h nwk_internal.h \
+ ../include/zb_secur.h ../osif/include/zb_bank_6.h
+aps_main.o: aps_main.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_secur.h aps_internal.h ../include/zb_af_globals.h \
+ ../include/zb_zdo.h ../osif/include/zb_bank_7.h
+aps_dups.o: aps_dups.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_aps.h aps_internal.h \
+ ../include/zb_scheduler.h ../include/zb_hash.h \
+ ../osif/include/zb_bank_6.h
+aps_bind.o: aps_bind.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_aps.h aps_internal.h \
+ ../include/zb_scheduler.h ../include/zb_hash.h ../include/zb_address.h \
+ ../include/zb_zdo.h ../osif/include/zb_bank_6.h
+aps_commands.o: aps_commands.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_aps.h aps_internal.h \
+ ../include/zb_secur.h ../osif/include/zb_bank_6.h
+aps_nwk_confirm.o: aps_nwk_confirm.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_mac.h \
+ ../include/zb_nwk.h ../include/zb_aps.h ../include/zb_zdo.h \
+ ../osif/include/zb_bank_6.h
+zdo_app.o: zdo_app.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_nwk.h ../include/zb_aps.h ../include/zb_zdo.h \
+ ../include/zb_secur.h ../include/zb_secur_api.h \
+ ../osif/include/zb_bank_8.h
+zdo_rx.o: zdo_rx.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_nwk.h ../include/zb_aps.h ../include/zb_zdo.h zdo_common.h \
+ ../osif/include/zb_bank_8.h
+zdo_disc_cli.o: zdo_disc_cli.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_hash.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_zdo.h zdo_common.h ../osif/include/zb_bank_9.h
+af_rx.o: af_rx.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_nwk.h ../include/zb_aps.h ../include/zb_zdo.h zdo_common.h \
+ ../include/zb_test_profile.h ../osif/include/zb_bank_7.h
+zdo_disc_srv.o: zdo_disc_srv.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_hash.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_zdo.h zdo_common.h ../osif/include/zb_bank_9.h
+af_descriptor.o: af_descriptor.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_af_globals.h ../include/zb_zdo.h \
+ ../osif/include/zb_bank_9.h
+zdo_common.o: zdo_common.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_hash.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_zdo.h zdo_common.h ../osif/include/zb_bank_8.h
+zdo_nwk_manage_cli.o: zdo_nwk_manage_cli.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_hash.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_zdo.h zdo_common.h ../osif/include/zb_bank_8.h
+zdo_nwk_manage_srv.o: zdo_nwk_manage_srv.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_hash.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_zdo.h zdo_common.h ../include/zb_secur.h \
+ ../osif/include/zb_bank_8.h
+zdo_channel_manager.o: zdo_channel_manager.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_hash.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_zdo.h zdo_common.h ../osif/include/zb_bank_a.h
+test_profile.o: test_profile.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_af_globals.h ../include/zb_zdo.h \
+ ../include/zb_test_profile.h ../osif/include/zb_bank_9.h
+zdo_bind_manage.o: zdo_bind_manage.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_hash.h ../include/zb_nwk.h ../include/zb_aps.h \
+ ../include/zb_zdo.h zdo_common.h ../osif/include/zb_bank_a.h
+secur_ccm.o: secur_ccm.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_types.h ../include/zb_config.h \
+ ../include/zb_secur.h ../osif/include/zb_bank_common.h
+apsme_secur.o: apsme_secur.c ../include/zb_common.h \
+ ../include/zb_config.h ../include/zb_types.h ../include/zb_errors.h \
+ ../include/zb_debug.h ../include/zb_g_context.h \
+ ../osif/include/zb_osif.h ../osif/include/zb_osif_unix.h \
+ ../include/zb_scheduler.h ../include/zb_list_macros.h \
+ ../include/zb_time.h ../include/zb_ringbuffer.h \
+ ../include/zb_bufpool_globals.h ../include/zb_bufpool.h \
+ ../include/zb_addr_globals.h ../include/zb_pooled_list.h \
+ ../include/zb_address.h ../include/zb_mac_globals.h ../include/zb_mac.h \
+ ../include/zb_ns3.h ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_aps.h ../include/zb_secur.h \
+ ../osif/include/zb_bank_common.h
+zdo_secur.o: zdo_secur.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_bufpool.h \
+ ../include/zb_nwk.h ../include/zb_aps.h ../include/zb_zdo.h \
+ ../include/zb_secur.h ../osif/include/zb_bank_common.h
+nwk_secur.o: nwk_secur.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_secur.h ../osif/include/zb_bank_common.h
+aps_secur.o: aps_secur.c ../include/zb_common.h ../include/zb_config.h \
+ ../include/zb_types.h ../include/zb_errors.h ../include/zb_debug.h \
+ ../include/zb_g_context.h ../osif/include/zb_osif.h \
+ ../osif/include/zb_osif_unix.h ../include/zb_scheduler.h \
+ ../include/zb_list_macros.h ../include/zb_time.h \
+ ../include/zb_ringbuffer.h ../include/zb_bufpool_globals.h \
+ ../include/zb_bufpool.h ../include/zb_addr_globals.h \
+ ../include/zb_pooled_list.h ../include/zb_address.h \
+ ../include/zb_mac_globals.h ../include/zb_mac.h ../include/zb_ns3.h \
+ ../include/zb_radio.h ../include/zb_nwk_globals.h \
+ ../include/zb_nwk_neighbor.h ../include/zb_nwk.h ../include/zb_nwk_nib.h \
+ ../include/zb_aps_globals.h ../include/zb_af_globals.h \
+ ../include/zb_test_profile.h ../include/zb_zdo_globals.h \
+ ../include/zb_zcl_globals.h ../include/zb_zcl.h \
+ ../include/zb_transport_globals.h ../include/zb_transport_linux_pipes.h \
+ ../include/zb_trace.h ../include/zb_scheduler.h ../include/zb_nwk.h \
+ ../include/zb_aps.h ../aps/aps_internal.h ../include/zb_secur.h \
+ ../osif/include/zb_bank_common.h
+dump_converter.o: dump_converter.c ../../include/zb_common.h \
+ ../../include/zb_config.h ../../include/zb_types.h \
+ ../../include/zb_errors.h ../../include/zb_debug.h \
+ ../../include/zb_g_context.h ../../osif/include/zb_osif.h \
+ ../../osif/include/zb_osif_unix.h ../../include/zb_scheduler.h \
+ ../../include/zb_list_macros.h ../../include/zb_time.h \
+ ../../include/zb_ringbuffer.h ../../include/zb_bufpool_globals.h \
+ ../../include/zb_bufpool.h ../../include/zb_addr_globals.h \
+ ../../include/zb_pooled_list.h ../../include/zb_address.h \
+ ../../include/zb_mac_globals.h ../../include/zb_mac.h \
+ ../../include/zb_ns3.h ../../include/zb_radio.h \
+ ../../include/zb_nwk_globals.h ../../include/zb_nwk_neighbor.h \
+ ../../include/zb_nwk.h ../../include/zb_nwk_nib.h \
+ ../../include/zb_aps_globals.h ../../include/zb_af_globals.h \
+ ../../include/zb_test_profile.h ../../include/zb_zdo_globals.h \
+ ../../include/zb_zcl_globals.h ../../include/zb_zcl.h \
+ ../../include/zb_transport_globals.h \
+ ../../include/zb_transport_linux_pipes.h ../../include/zb_trace.h \
+ ../../include/zb_mac_transport.h
